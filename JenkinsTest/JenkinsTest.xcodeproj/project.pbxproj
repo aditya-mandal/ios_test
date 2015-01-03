@@ -14,7 +14,6 @@
 		6980E8A81A529B4000473295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6980E8A61A529B4000473295 /* Main.storyboard */; };
 		6980E8AA1A529B4000473295 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6980E8A91A529B4000473295 /* Images.xcassets */; };
 		6980E8AD1A529B4000473295 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6980E8AB1A529B4000473295 /* LaunchScreen.xib */; };
-		6980E8B91A529B4000473295 /* JenkinsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6980E8B81A529B4000473295 /* JenkinsTestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +39,6 @@
 		6980E8A91A529B4000473295 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6980E8AC1A529B4000473295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6980E8B21A529B4000473295 /* JenkinsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6980E8B71A529B4000473295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6980E8B81A529B4000473295 /* JenkinsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				6980E8981A529B4000473295 /* JenkinsTest */,
-				6980E8B51A529B4000473295 /* JenkinsTestTests */,
 				6980E8971A529B4000473295 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,23 +97,6 @@
 			children = (
 				6980E89A1A529B4000473295 /* Info.plist */,
 				6980E89B1A529B4000473295 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6980E8B51A529B4000473295 /* JenkinsTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				6980E8B81A529B4000473295 /* JenkinsTestTests.m */,
-				6980E8B61A529B4000473295 /* Supporting Files */,
-			);
-			path = JenkinsTestTests;
-			sourceTree = "<group>";
-		};
-		6980E8B61A529B4000473295 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6980E8B71A529B4000473295 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,7 +213,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6980E8B91A529B4000473295 /* JenkinsTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
